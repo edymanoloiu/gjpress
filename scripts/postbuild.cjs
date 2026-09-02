@@ -4,7 +4,7 @@ const fs = require("fs");
 const path = require("path");
 
 const { generateRssFeed } = require("../lib/rss.js");
-const { getAllPosts } = require("../lib/api.js");
+const { getAllPostsSync } = require("../lib/buildPosts.cjs");
 
 // Cloudflare deploys the "out" folder
 const outDir = path.join(__dirname, "..", "out");
@@ -27,17 +27,14 @@ if (fs.existsSync(publicDir)) {
 	);
 
 	sitemapFiles.forEach((file) => {
-		fs.copyFileSync(
-			path.join(publicDir, file),
-			path.join(outDir, file)
-		);
+		fs.copyFileSync(path.join(publicDir, file), path.join(outDir, file));
 		console.log("📌 Copied:", file);
 	});
 }
 
 // 2️⃣ Generate RSS feed inside "out/"
-(async function () {
-	const posts = await getAllPosts([
+try {
+	const posts = getAllPostsSync([
 		"slug",
 		"title",
 		"excerpt",
@@ -46,10 +43,7 @@ if (fs.existsSync(publicDir)) {
 		"featureImg",
 	]);
 
-	const sorted = posts.sort(
-		(a, b) => new Date(b.date) - new Date(a.date)
-	);
-
+	const sorted = posts.sort((a, b) => new Date(b.date) - new Date(a.date));
 	const xml = generateRssFeed(sorted);
 
 	fs.writeFileSync(path.join(outDir, "rss.xml"), xml);
@@ -57,7 +51,7 @@ if (fs.existsSync(publicDir)) {
 
 	console.log("✅ RSS files written to 'out/'");
 	console.log("📂 Final out/ contents:", fs.readdirSync(outDir));
-})().catch((err) => {
+} catch (err) {
 	console.error("❌ postbuild failed:", err);
 	process.exit(1);
-});
+}
