@@ -1,0 +1,42 @@
+---
+postFormat: 'standard'
+story: true
+title: "Universul poetic al Iolandei Mirea: o călătorie în eternitate"
+excerpt: "Volumul „Eternitatea de azi” al poetei Iolanda Mirea oferă o explorare lirică a timpului, iubirii și condiției umane prin 66 de poeme neomoderniste."
+featureImg: https://images.pexels.com/photos/8626375/pexels-photo-8626375.jpeg
+thumb: https://images.pexels.com/photos/8626375/pexels-photo-8626375.jpeg?auto=compress&cs=tinysrgb&h=350
+date: May 13 2026
+cate: 'Evenimente si cultura'
+cate_bg: 'bg-color-red-one'
+cate_img: '/images/category/world.png'
+post_views: '7K Vizualizari'
+post_share: '54 Shares'
+author_name: 'Ana Popescu'
+author_desg: 'Publisher'
+author_img: '/images/author/ana.png'
+author_bio: 'Ea este Ana Popescu, jurnalistă de comunitate la GJ Press. Are puțin peste 30 de ani și este cunoscută pentru tonul prietenos și deschiderea față de oameni. Scrie despre viața cotidiană din Târgu Jiu, despre inițiative locale și povești care aduc mai aproape vocea comunității. Ana crede că știrile locale trebuie să fie accesibile, corecte și să reflecte realitatea oamenilor din oraș.'
+tags:
+- Evenimente si cultura
+- Cultura
+---
+Volumul „Eternitatea de azi” al poetei Iolanda Mirea creează un cadru propice pentru reflecții profunde asupra contrastelor dintre efemeritate și eternitate, invitând cititorul la o introspecție despre natura existenței. Această culegere poetică, formată din 66 de lucrări, evidențiază o sensibilitate matură, centrată pe teme esențiale precum timpul, iubirea, memoria și condiția umană, integrându-se în curentul neomodernist, în care confesiunea se îmbină armonios cu reflecția filosofică și dimensiunile simbolice ale vieții.
+
+Criticul literar Ion Popescu-Brădiceni remarcă faptul că poezia Iolandei Mirea se fundamentează pe „un sentiment trăit, nu construit”, subliniind autenticitatea trăirii poetice și capacitatea textului de a evoca emoții directe și profunde.
+
+Titlul „Eternitatea de azi” stabilește de la bun început o tensiune semnificativă între efemer și absolut. Conceptul de „eternitate” evocă permanența transcendentă și continuitatea spirituală, în timp ce „azi” aduce în prim-plan fragilitatea și caracterul trecător al prezentului. Această dualitate formează esența volumului: se caută surprinderea eternului în cotidian pentru a descoperi sensuri profunde în experiențele simple ale vieții: „Un cântec șoptit,/ O beție cu ultimul dac/ Rătăcit în Olimp,/ E mama tuturor celor ce curg/ A celor ce trec, asemenea norilor, desprins!” (Eternitatea de azi).
+
+Poezia Iolandei Mirea nu se axează pe spectaculos, ci pe introspecție și revelații intime. Volumul este structurat pe o poetică a confesiunii, iar eul liric apare adesea vulnerabil, marcat de nostalgia timpului trecut și dorința de a recăpăta o armonie originară. În acest context, poeziile devin locuri de rememorare și reflexie asupra destinului uman: „Vremurile-n loc nu s-au oprit,/ Minunile stau încuiate în locuri tăinuite/ Astăzi casa se prăbușește pe-o parte/ Cerdacul și poarta sunt de mult închise…” (Bunicul).
+
+În lirica Iolandei Mirea, timpul nu este perceput ca o linie dreaptă, ci ca o succesiune de stări afective în care trecutul și prezentul coexistă: „Viața, o fată alergând cu o carte-n mână,/ Pe străzi ninge ca la începutul timpului” (Viața, o fată alergând). În această lumină, poezia sa rezonează cu sensibilitatea neomodernistă, accentuând autenticitatea emoției și explorarea profundă a conștiinței. Un aspect central al acestei lucrări este meditația asupra dimensiunii existențiale. Poeta examinează frecvent relația dintre viață și moarte, iubire și singurătate, speranță și deziluzie. Deși sentimentul fragilității umane este prezent, acesta nu conduce la o disperare totală, ci inspirează o înțelepciune interioară. Moartea este nu doar asociată cu un final biologic, ci și cu o tranziție către o altă dimensiune a existenței: „Un pahar la nunta vieții, ce s-a unit cu moartea/ Iar omul trist privește neînțelegându-și soarta/ Și nemernicul timp nu răspunde vreodată.” (Netrebnicul timp).
+
+Astfel, eternitatea devine un simbol al continuității spirituale și al memoriei afective. Critica literară a subliniat caracterul neomodernist al viziunii Iolandei Mirea. Se poate afirma că autoarea rămâne ferm ancorată în acest curent, iar construcția lirică este susținută de două direcții esențiale: firul care țese textul și firul care transmite emoția. Această observație evidențiază dimensiunea duală a poeziei: elaborarea artistică și autenticitatea efectivă. Limbajul poetic este elaborat, dar nu artificial; metaforele nu devin exerciții intelectuale lipsite de sens, ci instrumente esențiale pentru comunicarea experiențelor interioare. Imaginarul său poetic este populat de simboluri recurente: lumina, umbra, apa, timpul, fereastra, drumul și tăcerea. Aceste imagini conferă o atmosferă meditativă și, uneori, melancolică. Lumina simbolizează revelația și speranța în timp ce umbra sugerează incertitudinea și efemeritatea vieții. Apa este o metaforă a curgerii timpului și a memoriei, iar drumul semnifică parcursul inițiatic al ființei umane.
+
+O temă esențială a acestei lucrări este iubirea: „Totul a început de la o scânteie,/ Ochii tăi au fost de vină,/ Ca două curcubeie,/ Și gura ta atât de sublimă.” (Iubire promisă). În creațiile poetei, iubirea nu este idealizată în sensul romantic convențional, ci se prezintă ca o experiență complexă, marcată de pasiune, absență și suferință. Sentimentul iubirii devine o metodă de auto-cunoaștere și de depășire a singurătății, iar, uneori, iubirea este strâns legată de nostalgia unei comuniuni pierdute, alteori cu speranța salvării spirituale. În toate aceste forme, discursul liric păstrează o tonalitate sinceră și profund umană. Dimensiunea feminină a acestui discurs poetic este de asemenea remarcabilă. Eul liric feminin își asumă sensibilitatea, vulnerabilitatea și capacitatea de introspecție, explorând universul afectiv al femeii contemporane și evidențiind contradicțiile între dorință și realitate, între ideal și cotidian. Astfel, volumul poate fi perceput și ca un jurnal interior, în care experiențele personale sunt înălțate artistic.
+
+Stilistice, poeziile Iolandei Mirea se disting printr-un limbaj dens, plin de metafore, dar totodată accesibile. Versurile au adesea un ritm interior ce rezonează cu muzicalitatea și aduc alternanța între imagini palpabile și reflecții abstracte. Autoarea face frecvent utilizarea antitezei și simbolismului pentru a crea tensiuni semantice emoționale.
+
+De asemenea, se remarcă o predilecție pentru expresia sugestivă și ambiguitatea poetică, caracteristici specifice liricii moderne și neomoderniste. Volumul se poate adăuga tradiției poeziei reflexive românești, fiind posibile influențe din lirica lui Lucian Blaga sau Nichita Stănescu în posibila formulare a temelor metafizice și preocuparea pentru relația dintre cuvânt și existență. Totuși, autoarea își păstrează originalitatea prin tonalitatea confesivă și accentul pus pe autenticitatea trăirii feminine. Un punct semnificativ al volumului este interacțiunea dintre poezie și memorie, aceasta devenind un spațiu al recuperării identitare și al supraviețuirii afective. Trecutul nu reprezintă o simplă evocare nostalgică, ci se transformă într-un teritoriu al reinterpretării și regăsirii de sine. În multe dintre poezii, amintirea acționează ca o formă de rezistență împotriva uitării și a degradării timpului.
+
+Interpretarea titlului sugerează și o latură filosofică: „Eternitatea de azi” sugerează faptul că eternitatea nu trebuie căutată într-un spațiu abstract și inaccesibil, ci poate fi descoperită în intensitatea momentului trăit în mod autentic. Această viziune apropie poezia Iolandei Mirea de reflecțiile existențialiste referitoare la timp și autenticiate. Prin urmare, eternitatea devine o experiență interioară mai degrabă decât o simplă abstracție metafizică.
+
+În concluzie, „Eternitatea de azi” se prezintă ca un volum de poezie profund reflexiv și confesiv, unde autoarea abordează teme centrale ce se concentrează asupra naturii condiției umane. Cartea se integrează în tradiția neomodernistă a poeziei românești contemporane și confirmă maturitatea artistică a unei voci poetice apte să exploreze sensurile profunde ale existenței umane. Astfel, „Eternitatea de azi” devine nu doar o simplă culegere de poeme, ci și o meditație asupra fragilității și frumuseții vieții, asupra modului în care ființa umană tinde să transforme clipa efemeră într-o experiență a eternității.

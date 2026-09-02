@@ -1,0 +1,14 @@
+[
+	{
+		"label": "Azi în Târgu Jiu",
+		"path": "/categorie/azi-in-targu-jiu"
+	},
+	{
+		"label": "Știri naționale și internaționale",
+		"path": "/categorie/stiri-nationale-si-internationale"
+	},
+	{
+		"label": "Evenimente și Cultură",
+		"path": "/categorie/evenimente-si-cultura"
+	}
+]

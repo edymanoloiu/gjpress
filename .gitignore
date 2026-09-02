@@ -1,0 +1,20 @@
+node_modules
+.next*
+*.DS_Store*
+out/*
+.vercel
+.env
+.env.production
+.DS_Store
+# Dependencies / Next.js build (auto-added)
+.next/
+
+# OpenNext (Cloudflare) build output
+.open-next
+.wrangler
+
+# Legacy full-content bundle (replaced by lib/postsIndex.js + public/_posts/)
+lib/postsRawContent.js
+
+# Generated post bodies for Worker-size limits (recreated by npm run generate:posts)
+public/_posts/
