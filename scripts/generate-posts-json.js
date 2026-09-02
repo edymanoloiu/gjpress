@@ -1,17 +1,24 @@
 // scripts/generate-posts-json.js
-// Builds a small lib/postsIndex.js (frontmatter only) + copies full .md to public/_posts/
-// so the Cloudflare Worker bundle stays under 64 MiB (no giant postsRawContent.js).
+// Builds:
+// - lib/postsIndex.json + public/posts-index.json (frontmatter only, for listings)
+// - public/posts-bodies.json (markdown bodies only, one file — served from CDN)
+// Avoids shipping 6k+ individual .md files into Vercel deploy outputs.
 
 import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 
 const postsDirectory = path.join(process.cwd(), 'posts');
-const indexOutPath = path.join(process.cwd(), 'lib', 'postsIndex.js');
-const publicPostsDir = path.join(process.cwd(), 'public', '_posts');
+const indexOutPath = path.join(process.cwd(), 'lib', 'postsIndex.json');
+const publicIndexOutPath = path.join(process.cwd(), 'public', 'posts-index.json');
+const bodiesOutPath = path.join(process.cwd(), 'public', 'posts-bodies.json');
+const legacyJsIndexPath = path.join(process.cwd(), 'lib', 'postsIndex.js');
 const legacyRawPath = path.join(process.cwd(), 'lib', 'postsRawContent.js');
+const legacyBodiesInLib = path.join(process.cwd(), 'lib', 'postsBodies.json');
+const legacyBodiesInContentData = path.join(process.cwd(), 'content-data', 'postsBodies.json');
+const publicPostsDir = path.join(process.cwd(), 'public', '_posts');
 
-/** Only fields needed for listings / getAllPosts (keeps Worker bundle smaller than full YAML dump). */
+/** Only fields needed for listings / getAllPosts. */
 const INDEX_STORE_KEYS = new Set([
 	'postFormat',
 	'trending',
@@ -59,30 +66,42 @@ function pickForIndex(data) {
 }
 
 async function generatePostsIndex() {
-	fs.mkdirSync(publicPostsDir, { recursive: true });
-
 	const files = fs.readdirSync(postsDirectory);
 	const postsIndex = {};
+	const postsBodies = {};
+
+	// Optional Cloudflare/local static copies. Skip on Vercel (too many files for deploy).
+	const copyToPublic = process.env.COPY_POSTS_TO_PUBLIC === '1' || !process.env.VERCEL;
+	if (copyToPublic) {
+		fs.mkdirSync(publicPostsDir, { recursive: true });
+	}
 
 	for (const filename of files) {
 		if (!filename.endsWith('.md')) continue;
 		const slug = filename.replace(/\.md$/, '');
 		const fullPath = path.join(postsDirectory, filename);
 		const raw = fs.readFileSync(fullPath, 'utf8');
-		const { data } = matter(raw);
+		const { data, content } = matter(raw);
 		postsIndex[slug] = JSON.parse(JSON.stringify(pickForIndex(data)));
-		fs.copyFileSync(fullPath, path.join(publicPostsDir, filename));
+		postsBodies[slug] = content;
+		if (copyToPublic) {
+			fs.copyFileSync(fullPath, path.join(publicPostsDir, filename));
+		}
 	}
 
-	const compact = JSON.stringify(postsIndex);
-	const banner = `// Auto-generated: frontmatter index only. Article bodies: /_posts/<slug>.md (run npm run generate:posts).\n`;
-	fs.writeFileSync(indexOutPath, `${banner}export default ${compact};\n`);
+	fs.mkdirSync(path.dirname(bodiesOutPath), { recursive: true });
+	fs.writeFileSync(indexOutPath, JSON.stringify(postsIndex));
+	fs.writeFileSync(publicIndexOutPath, JSON.stringify(postsIndex));
+	fs.writeFileSync(bodiesOutPath, JSON.stringify(postsBodies));
 
-	if (fs.existsSync(legacyRawPath)) {
-		fs.unlinkSync(legacyRawPath);
+	for (const legacy of [legacyJsIndexPath, legacyRawPath, legacyBodiesInLib, legacyBodiesInContentData]) {
+		if (fs.existsSync(legacy)) fs.unlinkSync(legacy);
 	}
 
-	console.log(`✅ Generated lib/postsIndex.js (${Object.keys(postsIndex).length} posts) + public/_posts/*.md`);
+	const extra = copyToPublic ? ' + public/_posts/*.md' : ' (skipped public/_posts on Vercel)';
+	console.log(
+		`✅ Generated posts-index + posts-bodies.json (${Object.keys(postsIndex).length} posts)${extra}`
+	);
 }
 
 generatePostsIndex().catch((err) => {

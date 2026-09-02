@@ -1,5 +1,5 @@
-const { getAllPosts } = require('./lib/api');
 const { isRecomandarePost } = require('./lib/recomandarePosts.js');
+const { getAllPostsSync } = require('./lib/buildPosts.cjs');
 
 const slugify = (text) => {
 	if (!text) return '';
@@ -38,7 +38,7 @@ module.exports = {
 		};
 	},
 	additionalPaths: async () => {
-		const posts = getAllPosts(['slug', 'date', 'cate', 'author_name', 'tags']);
+		const posts = getAllPostsSync(['slug', 'date', 'cate', 'author_name', 'tags']);
 		const seenCategories = new Set();
 		const seenAuthors = new Set();
 		const paths = [];

@@ -1,4 +1,5 @@
-import { getAllPosts, getPostBySlug } from "../../../lib/api";
+import { getAllPosts } from "../../../lib/postsList.js";
+import { getPostBySlug } from "../../../lib/postBody.js";
 import markdownToHtml from "../../../lib/markdownToHtml";
 import Breadcrumb from "../../components/common/Breadcrumb";
 import HeadMeta from "../../components/elements/HeadMeta";
@@ -108,10 +109,6 @@ export async function getStaticProps({ params }) {
 		return { notFound: true };
 	}
 
-	const origin =
-		process.env.NEXT_PUBLIC_SITE_URL ||
-		process.env.CF_PAGES_URL ||
-		'https://gjpress.ro';
 	const post = await getPostBySlug(
 		slug,
 		[
@@ -136,8 +133,7 @@ export async function getStaticProps({ params }) {
 		'featureImgSrc',
 		'excerpt',
 		'isPromo',
-		],
-		{ origin: origin.replace(/\/$/, '') }
+		]
 	);
 	if (!post || !post.slug) {
 		return { notFound: true };
@@ -154,7 +150,7 @@ export async function getStaticProps({ params }) {
 
 	const content = await markdownToHtml(post.content || '')
 
-	const allPosts = getAllPosts([
+	const allPosts = (await getAllPosts([
 		'title',
 		'featureImg',
 		'featureImgSrc',
@@ -168,7 +164,7 @@ export async function getStaticProps({ params }) {
 		'trending',
 		'isPromo',
 		'tags'
-	])
+	]))
 		.filter((p) => !isRecomandarePost(p))
 		.sort((a, b) => new Date(b.date) - new Date(a.date))
 		.slice(0, 100);

@@ -1,5 +1,6 @@
 import Script from 'next/script';
-import { getAllPosts, getPostBySlug } from "../../../lib/api";
+import { getAllPosts } from "../../../lib/postsList.js";
+import { getPostBySlug } from "../../../lib/postBody.js";
 import { isRecomandarePost } from "../../../lib/recomandarePosts";
 import markdownToHtml from "../../../lib/markdownToHtml";
 import Breadcrumb from "../../components/common/Breadcrumb";
@@ -79,29 +80,24 @@ const PostDetails = ({ postContent, allPosts }) => {
 
 export default PostDetails;
 
-export async function getServerSideProps({ params, req }) {
+export async function getServerSideProps({ params }) {
 	const slug = Array.isArray(params?.slug) ? params.slug[0] : params?.slug;
 	if (!slug || typeof slug !== 'string') return { notFound: true };
-	const host = req?.headers?.host;
-	const origin = (
-		host ? `https://${host}` : process.env.NEXT_PUBLIC_SITE_URL || 'https://gjpress.ro'
-	).replace(/\/$/, '');
 	const post = await getPostBySlug(
 		slug,
 		[
 			'postFormat', 'title', 'quoteText', 'featureImg', 'videoLink', 'audioLink', 'gallery', 'date', 'slug',
 			'cate', 'cate_bg', 'author_name', 'author_img', 'author_bio', 'author_social', 'post_views', 'post_share',
 			'content', 'featureImgSrc', 'hasScript', 'excerpt', 'hasOwnScript', 'script', 'isPromo', 'tags',
-		],
-		{ origin }
+		]
 	);
 	if (!post || !post.slug) return { notFound: true };
 	if (!isRecomandarePost(post)) return { notFound: true };
 	const content = await markdownToHtml(post.content || '');
-	const allPosts = getAllPosts([
+	const allPosts = (await getAllPosts([
 		'title', 'featureImg', 'featureImgSrc', 'postFormat', 'date', 'slug', 'cate', 'cate_bg', 'cate_img',
 		'author_name', 'trending', 'isPromo', 'tags',
-	])
+	]))
 		.filter((p) => !isRecomandarePost(p))
 		.sort((a, b) => new Date(b.date) - new Date(a.date))
 		.slice(0, 100);

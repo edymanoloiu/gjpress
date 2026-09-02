@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { getAllPosts, getPostBySlug } from "../../../lib/api";
+import { getAllPosts } from "../../../lib/postsList.js";
 import Breadcrumb from "../../components/common/Breadcrumb";
 import HeadMeta from "../../components/elements/HeadMeta";
 import FooterOne from "../../components/footer/FooterOne";
@@ -85,7 +85,7 @@ export async function getServerSideProps({ params }) {
 
 	const postParams = params.slug;
 
-	const allPosts = getAllPosts([
+	const allPosts = await getAllPosts([
 		'slug',
 		'cate',
 		'cate_img',
