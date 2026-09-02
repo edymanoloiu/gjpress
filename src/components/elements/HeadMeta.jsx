@@ -1,66 +1,101 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import publication from '../../data/publication'
+import { absoluteUrl, getCanonicalUrl, robotsDirective } from '../../../lib/local-knowledge/seo'
 
+const SITE_URL = publication.canonicalDomain.replace(/\/$/, '')
+const SEO = publication.seo || {}
+const BRAND = publication.publicationName
+const TITLE_TEMPLATE = SEO.titleTemplate || `%s | ${BRAND}`
+const DEFAULT_OG_IMAGE = absoluteUrl(publication.defaultSocialImage || publication.logo)
 
-const SITE_URL = 'https://gjpress.ro'
-const defaultDesc =
-	'„GJ Press” este platforma digitală dedicată locuitorilor din Drobeta-Turnu Severin și celor interesați de viața orașului de pe malul Dunării. Aici găsești zilnic știri locale, evenimente importante, informații utile, interviuri și povești despre oameni și locuri care dau identitate comunității. Cu un conținut echilibrat, accesibil și actualizat constant, „GJ Press” devine ghidul tău zilnic pentru tot ce contează în Severin – de la administrație și cultură până la stil de viață și inițiative locale.'
+const toAbsoluteUrl = (value) => {
+	if (!value) return DEFAULT_OG_IMAGE
+	return absoluteUrl(value)
+}
 
-/**
- * SEO tags via next/head so they reliably appear in SSR HTML (OpenNext / Pages Router).
- * Optional article* props apply when ogType is "article".
- */
+const formatTitle = (pageTitle) => TITLE_TEMPLATE.replace('%s', pageTitle)
+
 const HeadMeta = ({
 	metaTitle,
 	metaDesc,
 	metaImg,
-	canonicalUrl,
-	keywords,
-	ogType = 'website',
+	ogUrl,
+	ogType,
 	ogTitle,
 	ogDescription,
-	ogImage,
-	ogUrl,
+	twitterTitle,
+	twitterDescription,
+	canonicalUrl,
+	keywords,
 	articlePublishedTime,
 	articleModifiedTime,
 	articleSection,
 	jsonLd,
+	/** When set, used as the full document <title> (no template suffix). */
+	fullPageTitle,
+	robots,
 }) => {
-	const description = metaDesc || defaultDesc
-	const title = metaTitle
-	const image = ogImage || metaImg
+	const title = fullPageTitle
+		? fullPageTitle
+		: metaTitle
+			? formatTitle(metaTitle)
+			: SEO.title || `${BRAND} | Informații locale din ${publication.city}`
+	const description =
+		metaDesc ||
+		SEO.description ||
+		`${publication.publicationTagline} — știri locale din ${publication.city}.`
+	const resolvedOgTitle = ogTitle || title
+	const resolvedOgDescription = ogDescription || description
+	const resolvedTwitterTitle = twitterTitle || resolvedOgTitle
+	const resolvedTwitterDescription = twitterDescription || resolvedOgDescription
+	const ogSiteName = SEO.openGraph?.siteName || BRAND
+	const image = toAbsoluteUrl(metaImg)
 	const router = useRouter()
 	const routePath = router.asPath ? router.asPath.split('#')[0].split('?')[0] : '/'
-	const normalizedRoutePath = !routePath || routePath === '/' ? '' : routePath.startsWith('/') ? routePath : `/${routePath}`
-	const routeUrl = `${SITE_URL}${normalizedRoutePath}`
-	const canonical = canonicalUrl || ogUrl || routeUrl || SITE_URL
-	const openGraphUrl = ogUrl || canonical
-	const twTitle = ogTitle || title
-	const twDesc = ogDescription || description
-	const twImage = image
+	const effectiveCanonical = canonicalUrl || ogUrl || getCanonicalUrl(routePath)
+	const resolvedOgUrl = ogUrl || effectiveCanonical
+	const resolvedOgType = ogType || SEO.openGraph?.type || 'website'
+	const robotsContent = robots || robotsDirective()
+	const twitterCard = SEO.twitter?.card || 'summary_large_image'
 
-	const jsonLdString =
-		jsonLd && typeof jsonLd === 'object' ? JSON.stringify(jsonLd) : null
+	const jsonLdString = (() => {
+		if (!jsonLd) return null
+		if (Array.isArray(jsonLd)) {
+			return JSON.stringify({
+				'@context': 'https://schema.org',
+				'@graph': jsonLd.map((item) => {
+					if (!item || typeof item !== 'object') return item
+					const { '@context': _ctx, ...rest } = item
+					return rest
+				}),
+			})
+		}
+		if (typeof jsonLd === 'object') return JSON.stringify(jsonLd)
+		return null
+	})()
 
 	return (
 		<Head>
 			<meta charSet="utf-8" />
 			<meta httpEquiv="x-ua-compatible" content="ie=edge" />
-			<meta name="description" content={description} />
-			<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-			{keywords ? <meta name="keywords" content={keywords} /> : null}
+
 			<title>{title}</title>
+			<meta name="description" content={description} />
+			<meta name="robots" content={robotsContent} />
+			<link rel="canonical" href={effectiveCanonical} key="canonical" />
 
-			{canonical ? <link rel="canonical" href={canonical} key="canonical" /> : null}
-
-			<meta property="og:locale" content="ro_RO" />
-			{openGraphUrl ? <meta property="og:url" content={openGraphUrl} /> : null}
-			<meta property="og:site_name" content={SITE_URL.replace(/^https?:\/\//, '').replace(/\/$/, '')} />
-			<meta property="og:type" content={ogType} />
-			<meta property="og:title" content={ogTitle || title} />
-			<meta property="og:description" content={ogDescription || description} />
-			{image ? <meta property="og:image" content={image} /> : null}
+			<meta property="og:title" content={resolvedOgTitle} />
+			<meta property="og:description" content={resolvedOgDescription} />
+			<meta property="og:image" content={image} />
+			<meta property="og:image:width" content="1200" />
+			<meta property="og:image:height" content="630" />
+			<meta property="og:type" content={resolvedOgType} />
+			<meta property="og:url" content={resolvedOgUrl} />
+			<meta property="og:site_name" content={ogSiteName} />
+			<meta property="og:locale" content={SEO.openGraph?.locale || publication.ogLocale || 'ro_RO'} />
+			{keywords ? <meta name="keywords" content={keywords} /> : null}
 			{articlePublishedTime ? (
 				<meta property="article:published_time" content={articlePublishedTime} />
 			) : null}
@@ -69,17 +104,13 @@ const HeadMeta = ({
 			) : null}
 			{articleSection ? <meta property="article:section" content={articleSection} /> : null}
 
-			<meta name="ai-content" content={ogType === 'article' ? 'ai-assisted; human-reviewed' : 'not-applicable'} />
+			<meta name="ai-content" content={resolvedOgType === 'article' ? 'ai-assisted; human-reviewed' : 'not-applicable'} />
 			<meta name="ai-image" content="generated-or-stock-or-own" />
-			<meta name="editorial-responsibility" content="Weboratory Capital SRL" />
-			<meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
-			<meta name="twitter:title" content={twTitle} />
-			<meta name="twitter:description" content={twDesc} />
-			{twImage ? <meta name="twitter:image" content={twImage} /> : null}
-
-			<link rel="icon" href="/images/cropped_image.png" type="image/png" />
-			<link rel="apple-touch-icon" href="/images/cropped_image.png" />
-
+			<meta name="editorial-responsibility" content={publication.legalCompanyName} />
+			<meta name="twitter:card" content={twitterCard} />
+			<meta name="twitter:title" content={resolvedTwitterTitle} />
+			<meta name="twitter:description" content={resolvedTwitterDescription} />
+			<meta name="twitter:image" content={image} />
 			{jsonLdString ? (
 				<script
 					type="application/ld+json"
@@ -87,6 +118,16 @@ const HeadMeta = ({
 					key="article-jsonld"
 				/>
 			) : null}
+
+			<link
+				rel="alternate"
+				type="application/rss+xml"
+				title={`${BRAND} RSS`}
+				href={`${SITE_URL}/rss.xml`}
+				key="rss-alternate"
+			/>
+			<link rel="icon" href={publication.favicon || '/images/cropped_image.png'} type="image/png" />
+			<link rel="apple-touch-icon" href={publication.favicon || '/images/cropped_image.png'} />
 		</Head>
 	)
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import SocialLink from "../../data/social/SocialLink.json";
+import publication from "../../data/publication";
 
 const FooterOne = () => {
 	return (
@@ -13,8 +14,8 @@ const FooterOne = () => {
 							<div className="footer-logo-container">
 								<Link href="/">
 									<Image
-										src="/images/cropped_image.png"
-										alt="footer logo"
+										src={publication.favicon || "/images/cropped_image.png"}
+										alt={`${publication.publicationName} - Logo`}
 										className="footer-logo"
 										width={86}
 										height={86}
