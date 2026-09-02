@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
 
 	useEffect(() => {
 		const handleRouteChange = (url) => {
-			window.gtag('config', 'G-D6VCBQ4DNS', { page_path: url });
+			window.gtag('config', 'G-M4V8D6WJQX', { page_path: url });
 		};
 		router.events.on('routeChangeComplete', handleRouteChange);
 		return () => router.events.off('routeChangeComplete', handleRouteChange);
@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
 		<>
 			{/*  Global site tag (gtag.js) - Google Analytics */}
 			<Script
-				src="https://www.googletagmanager.com/gtag/js?id=G-D6VCBQ4DNS"
+				src="https://www.googletagmanager.com/gtag/js?id=G-M4V8D6WJQX"
 				strategy="afterInteractive"
 			/>
 			<Script
@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }) {
 						'security_storage': 'granted'
 					});
 
-					gtag('config', 'G-D6VCBQ4DNS', { page_path: window.location.pathname });
+					gtag('config', 'G-M4V8D6WJQX', { page_path: window.location.pathname });
 				`}
 			</Script>
 
