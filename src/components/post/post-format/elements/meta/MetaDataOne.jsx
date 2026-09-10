@@ -18,7 +18,7 @@ const MetaDataOne = ({ metaData }) => {
 									{metaData.cate}
 								</Link>
 							</div>
-							<h2 className="m-t-xs-20 m-b-xs-0 axil-post-title hover-line">{metaData.title}</h2>
+							<h1 className="m-t-xs-20 m-b-xs-0 axil-post-title hover-line">{metaData.title}</h1>
 							<div className="post-metas banner-post-metas m-t-xs-20">
 								<ul className="list-inline">
 									<li>
