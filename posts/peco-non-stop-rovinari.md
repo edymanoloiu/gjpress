@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Rovinari'
+title: 'Benzinării non stop Rovinari'
 excerpt: 'PETROM 2 ROVINARI, Strada Energeticianului nr. 5. Non-stop verificat: Teodoroiu 504, Târgu Jiu.'
 featureImg: /images/posts/peco-non-stop-rovinari.webp
 thumb: /images/posts/peco-non-stop-rovinari.webp
@@ -21,9 +21,9 @@ tags:
 - benzinării non stop
 ---
 
-![Benzinarii non stop Rovinari](/images/posts/peco-non-stop-rovinari.webp)
+![Benzinării non stop Rovinari](/images/posts/peco-non-stop-rovinari.webp)
 
-# Benzinarii non stop Rovinari
+# Benzinării non stop Rovinari
 
 **Răspuns rapid:** Oficial: **PETROM 2 ROVINARI, Strada Energeticianului nr. 5**. Orarul 24/7 nu e scris în PDF. Confirmă în localizator. Pentru noapte, **Teodoroiu 504** din municipiu e punctul marcat 24h pe GazOnline.
 

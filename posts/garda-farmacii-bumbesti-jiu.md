@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Bumbești-Jiu'
+title: 'Farmacii de gardă Bumbești-Jiu'
 excerpt: 'Niciun PDF de gardă pe site-ul DSP. 3 puncte. Noaptea nu e aici.'
 featureImg: /images/posts/garda-farmacii-bumbesti-jiu.webp
 thumb: /images/posts/garda-farmacii-bumbesti-jiu.webp
@@ -21,9 +21,9 @@ tags:
 - farmacii de gardă
 ---
 
-![Farmacii de garda Bumbești-Jiu](/images/posts/garda-farmacii-bumbesti-jiu.webp)
+![Farmacii de gardă Bumbești-Jiu](/images/posts/garda-farmacii-bumbesti-jiu.webp)
 
-# Farmacii de garda Bumbești-Jiu
+# Farmacii de gardă Bumbești-Jiu
 
 **Răspuns rapid:** Nu inventăm o rotație. Trei farmacii indexate. Adrese clare: Farmalis, Parângului 27, și Galenus, Parângului 102. Garda, dacă există, e pe geam. **0253 210 156**.
 

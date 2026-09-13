@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Stomatologie urgenta Bumbești-Jiu'
+title: 'Stomatologie urgență Bumbești-Jiu'
 excerpt: 'Aprilie 2026: UPU stomatologie non-stop la SJU Târgu Jiu. Tudor Vladimirescu 17. Nu e în orașele mici.'
 featureImg: /images/posts/urgenta-dentara-bumbesti-jiu.webp
 thumb: /images/posts/urgenta-dentara-bumbesti-jiu.webp
@@ -21,9 +21,9 @@ tags:
 - stomatologie urgență
 ---
 
-![Stomatologie urgenta Bumbești-Jiu](/images/posts/urgenta-dentara-bumbesti-jiu.webp)
+![Stomatologie urgență Bumbești-Jiu](/images/posts/urgenta-dentara-bumbesti-jiu.webp)
 
-# Stomatologie urgenta Bumbești-Jiu
+# Stomatologie urgență Bumbești-Jiu
 
 **Răspuns rapid:** **Nu e UPU dentar în Bumbești-Jiu.** Unicul cabinet județean de urgență stomatologică, anunțat **non-stop** în aprilie 2026, e la **SJU Târgu Jiu**, **Tudor Vladimirescu 17**, **0253 237 234**.
 

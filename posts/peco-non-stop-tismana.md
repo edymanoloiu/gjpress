@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Tismana'
+title: 'Benzinării non stop Tismana'
 excerpt: 'Gorjul oficial: Târgu Jiu, Motru, Rovinari, Târgu Cărbunești. Aici, nimic în listă. Teodoroiu 504 e 24h.'
 featureImg: /images/posts/peco-non-stop-tismana.webp
 thumb: /images/posts/peco-non-stop-tismana.webp
@@ -21,9 +21,9 @@ tags:
 - benzinării non stop
 ---
 
-![Benzinarii non stop Tismana](/images/posts/peco-non-stop-tismana.webp)
+![Benzinării non stop Tismana](/images/posts/peco-non-stop-tismana.webp)
 
-# Benzinarii non stop Tismana
+# Benzinării non stop Tismana
 
 **Răspuns rapid:** **Tismana lipsește** din lista OMV Petrom pe județ. Nu publicăm o stație din memorie. **Teodoroiu 504**, municipiu, **0372 056 108**, e punctul 24h marcat.
 

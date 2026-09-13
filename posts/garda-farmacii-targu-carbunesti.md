@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Târgu Cărbunești'
+title: 'Farmacii de gardă Târgu Cărbunești'
 excerpt: 'Niciun PDF de gardă pe site-ul DSP. cel puțin 3 puncte. Noaptea nu e aici.'
 featureImg: /images/posts/garda-farmacii-targu-carbunesti.webp
 thumb: /images/posts/garda-farmacii-targu-carbunesti.webp
@@ -21,9 +21,9 @@ tags:
 - farmacii de gardă
 ---
 
-![Farmacii de garda Târgu Cărbunești](/images/posts/garda-farmacii-targu-carbunesti.webp)
+![Farmacii de gardă Târgu Cărbunești](/images/posts/garda-farmacii-targu-carbunesti.webp)
 
-# Farmacii de garda Târgu Cărbunești
+# Farmacii de gardă Târgu Cărbunești
 
 **Răspuns rapid:** Nu inventăm o rotație. HartaFarmacii publică Farmada (Trandafirilor 88A) și Farmroxi (Pieții 37). Nu sunt lanțuri Catena sau Dr. Max pe extrasul de județ. Garda, dacă există, e pe geam. **0253 210 156**.
 

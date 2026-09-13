@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Rovinari'
+title: 'Spital urgențe Rovinari'
 excerpt: 'Strada Jiului nr. 1, 0253 371 318. Pentru politraumatism: municipiu, nu doar camera de gardă.'
 featureImg: /images/posts/upu-spital-rovinari.webp
 thumb: /images/posts/upu-spital-rovinari.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Rovinari](/images/posts/upu-spital-rovinari.webp)
+![Spital urgențe Rovinari](/images/posts/upu-spital-rovinari.webp)
 
-# Spital urgente Rovinari
+# Spital urgențe Rovinari
 
 **Răspuns rapid:** Spitalul de aici, după DSP: **Spitalul Orășenesc „Sf. Ștefan” Rovinari**, **Strada Jiului nr. 1**, **0253 371 318**. Site propriu: 0253 371 400, office@spitalrovinari.ro. Nu e UPU județean. Cazurile grele: **SJU Târgu Jiu**, **0253 237 234**. **112**.
 

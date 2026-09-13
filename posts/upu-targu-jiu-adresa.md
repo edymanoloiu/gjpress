@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Târgu Jiu'
+title: 'Spital urgențe Târgu Jiu'
 excerpt: 'Primirile de urgență sunt pe Vladimirescu. Cuza 1 e alt sediu. 0253 237 234. Policlinica: 0741 151 346. Duminica, UPU nu se închide.'
 featureImg: /images/posts/upu-targu-jiu-adresa.webp
 thumb: /images/posts/upu-targu-jiu-adresa.webp
@@ -22,9 +22,9 @@ tags:
 - UPU
 ---
 
-![Spital urgente Târgu Jiu](/images/posts/upu-targu-jiu-adresa.webp)
+![Spital urgențe Târgu Jiu](/images/posts/upu-targu-jiu-adresa.webp)
 
-# Spital urgente Târgu Jiu
+# Spital urgențe Târgu Jiu
 
 **Răspuns rapid:** **Unitatea de Primiri Urgențe** a județeanului e pe **strada Tudor Vladimirescu nr. 17**. MS distinge **Spital nr. 2** (aceeași adresă) de **Spital nr. 1, A.I. Cuza 1**. Centrale: **0253 237 234**, **0253 237 801**. UPU a fost reabilitată cu bani POR. Duminică, 13 septembrie, **nu se închide**. 112 dacă nu conduci.
 

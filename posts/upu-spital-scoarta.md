@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Scoarța'
+title: 'Spital urgențe Scoarța'
 excerpt: 'Nu trimitem cititorul la un spital inexistent. SJU Târgu Jiu, 0253 237 234. 112.'
 featureImg: /images/posts/upu-spital-scoarta.webp
 thumb: /images/posts/upu-spital-scoarta.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Scoarța](/images/posts/upu-spital-scoarta.webp)
+![Spital urgențe Scoarța](/images/posts/upu-spital-scoarta.webp)
 
-# Spital urgente Scoarța
+# Spital urgențe Scoarța
 
 **Răspuns rapid:** **Scoarța nu are spital orășenesc** în tabela DSP Gorj. **SJU Târgu Jiu**, Tudor Vladimirescu 17. **112**.
 

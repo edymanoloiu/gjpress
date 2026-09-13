@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Bumbești-Jiu'
+title: 'Benzinării non stop Bumbești-Jiu'
 excerpt: 'Gorjul oficial: Târgu Jiu, Motru, Rovinari, Târgu Cărbunești. Aici, nimic în listă. Teodoroiu 504 e 24h.'
 featureImg: /images/posts/peco-non-stop-bumbesti-jiu.webp
 thumb: /images/posts/peco-non-stop-bumbesti-jiu.webp
@@ -21,9 +21,9 @@ tags:
 - benzinării non stop
 ---
 
-![Benzinarii non stop Bumbești-Jiu](/images/posts/peco-non-stop-bumbesti-jiu.webp)
+![Benzinării non stop Bumbești-Jiu](/images/posts/peco-non-stop-bumbesti-jiu.webp)
 
-# Benzinarii non stop Bumbești-Jiu
+# Benzinării non stop Bumbești-Jiu
 
 **Răspuns rapid:** **Bumbești-Jiu lipsește** din lista OMV Petrom pe județ. Nu publicăm o stație din memorie. **Teodoroiu 504**, municipiu, **0372 056 108**, e punctul 24h marcat.
 

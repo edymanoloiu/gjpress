@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Novaci'
+title: 'Benzinării non stop Novaci'
 excerpt: 'Gorjul oficial: Târgu Jiu, Motru, Rovinari, Târgu Cărbunești. Aici, nimic în listă. Teodoroiu 504 e 24h.'
 featureImg: /images/posts/peco-non-stop-novaci.webp
 thumb: /images/posts/peco-non-stop-novaci.webp
@@ -21,9 +21,9 @@ tags:
 - benzinării non stop
 ---
 
-![Benzinarii non stop Novaci](/images/posts/peco-non-stop-novaci.webp)
+![Benzinării non stop Novaci](/images/posts/peco-non-stop-novaci.webp)
 
-# Benzinarii non stop Novaci
+# Benzinării non stop Novaci
 
 **Răspuns rapid:** **Novaci lipsește** din lista OMV Petrom pe județ. Nu publicăm o stație din memorie. **Teodoroiu 504**, municipiu, **0372 056 108**, e punctul 24h marcat.
 

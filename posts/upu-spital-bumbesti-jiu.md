@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Bumbești-Jiu'
+title: 'Spital urgențe Bumbești-Jiu'
 excerpt: 'Strada Zorilor nr. 1, 0253 463 042. Pentru politraumatism: municipiu, nu doar camera de gardă.'
 featureImg: /images/posts/upu-spital-bumbesti-jiu.webp
 thumb: /images/posts/upu-spital-bumbesti-jiu.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Bumbești-Jiu](/images/posts/upu-spital-bumbesti-jiu.webp)
+![Spital urgențe Bumbești-Jiu](/images/posts/upu-spital-bumbesti-jiu.webp)
 
-# Spital urgente Bumbești-Jiu
+# Spital urgențe Bumbești-Jiu
 
 **Răspuns rapid:** Spitalul de aici, după DSP: **Spitalul Orășenesc Dr. Gheorghe Constantinescu Bumbești-Jiu**, **Strada Zorilor nr. 1**, **0253 463 042**. spitalul_bumbesti_jiu@yahoo.com. Nu e UPU județean. Cazurile grele: **SJU Târgu Jiu**, **0253 237 234**. **112**.
 

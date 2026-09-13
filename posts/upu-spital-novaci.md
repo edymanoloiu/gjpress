@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Novaci'
+title: 'Spital urgențe Novaci'
 excerpt: 'Strada Gruiului nr. 1, 0253 466 482. Pentru politraumatism: municipiu, nu doar camera de gardă.'
 featureImg: /images/posts/upu-spital-novaci.webp
 thumb: /images/posts/upu-spital-novaci.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Novaci](/images/posts/upu-spital-novaci.webp)
+![Spital urgențe Novaci](/images/posts/upu-spital-novaci.webp)
 
-# Spital urgente Novaci
+# Spital urgențe Novaci
 
 **Răspuns rapid:** Spitalul de aici, după DSP: **Spitalul Orășenesc Novaci**, **Strada Gruiului nr. 1**, **0253 466 482**. spitalulnovaci@yahoo.com. Nu e UPU județean. Cazurile grele: **SJU Târgu Jiu**, **0253 237 234**. **112**.
 

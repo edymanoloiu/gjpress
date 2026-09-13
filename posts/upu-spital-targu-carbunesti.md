@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Târgu Cărbunești'
+title: 'Spital urgențe Târgu Cărbunești'
 excerpt: 'Strada Eroilor nr. 51, 0253 378 165. Pentru politraumatism: municipiu, nu doar camera de gardă.'
 featureImg: /images/posts/upu-spital-targu-carbunesti.webp
 thumb: /images/posts/upu-spital-targu-carbunesti.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Târgu Cărbunești](/images/posts/upu-spital-targu-carbunesti.webp)
+![Spital urgențe Târgu Cărbunești](/images/posts/upu-spital-targu-carbunesti.webp)
 
-# Spital urgente Târgu Cărbunești
+# Spital urgențe Târgu Cărbunești
 
 **Răspuns rapid:** Spitalul de aici, după DSP: **Spitalul Orășenesc Târgu Cărbunești**, **Strada Eroilor nr. 51**, **0253 378 165**. office@spitalcarbunesti.ro, în lista DSP. Nu e UPU județean. Cazurile grele: **SJU Târgu Jiu**, **0253 237 234**. **112**.
 

@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Târgu Jiu'
+title: 'Farmacii de gardă Târgu Jiu'
 excerpt: 'Direcția de pe 22 Decembrie 1989 nr. 22 Bis nu publică rotația. Citești ușa. Help Net 23 August nu lucrează duminica.'
 featureImg: /images/posts/garda-farmacii-targu-jiu.webp
 thumb: /images/posts/garda-farmacii-targu-jiu.webp
@@ -22,9 +22,9 @@ tags:
 - Sănătate
 ---
 
-![Farmacii de garda Târgu Jiu](/images/posts/garda-farmacii-targu-jiu.webp)
+![Farmacii de gardă Târgu Jiu](/images/posts/garda-farmacii-targu-jiu.webp)
 
-# Farmacii de garda Târgu Jiu
+# Farmacii de gardă Târgu Jiu
 
 **Răspuns rapid:** Rotația e treaba Colegiului și a **DSP Gorj**. Sediul: **22 Decembrie 1989 nr. 22 Bis**. Telefon secretariat: **0253 210 156**. **Nu am găsit tabel zilnic pe site.** HartaFarmacii recunoaște o **non-stop** în municipiu și trimite garda oficială la avizier. Duminică, **Help Net 23 August 3A e închisă**.
 

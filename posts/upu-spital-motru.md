@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Motru'
+title: 'Spital urgențe Motru'
 excerpt: 'Strada Carol Davila nr. 4, 0253 410 003. Pentru politraumatism: municipiu, nu doar camera de gardă.'
 featureImg: /images/posts/upu-spital-motru.webp
 thumb: /images/posts/upu-spital-motru.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Motru](/images/posts/upu-spital-motru.webp)
+![Spital urgențe Motru](/images/posts/upu-spital-motru.webp)
 
-# Spital urgente Motru
+# Spital urgențe Motru
 
 **Răspuns rapid:** Spitalul de aici, după DSP: **Spitalul Municipal Motru**, **Strada Carol Davila nr. 4**, **0253 410 003**. Lista DSP Gorj. Nu e UPU-ul județean. Cazurile grele: **SJU Târgu Jiu**, **0253 237 234**. **112**.
 

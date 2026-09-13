@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Stomatologie urgenta Motru'
+title: 'Stomatologie urgență Motru'
 excerpt: 'Aprilie 2026: UPU stomatologie non-stop la SJU Târgu Jiu. Tudor Vladimirescu 17. Nu e în orașele mici.'
 featureImg: /images/posts/urgenta-dentara-motru.webp
 thumb: /images/posts/urgenta-dentara-motru.webp
@@ -21,9 +21,9 @@ tags:
 - stomatologie urgență
 ---
 
-![Stomatologie urgenta Motru](/images/posts/urgenta-dentara-motru.webp)
+![Stomatologie urgență Motru](/images/posts/urgenta-dentara-motru.webp)
 
-# Stomatologie urgenta Motru
+# Stomatologie urgență Motru
 
 **Răspuns rapid:** **Nu e UPU dentar în Motru.** Unicul cabinet județean de urgență stomatologică, anunțat **non-stop** în aprilie 2026, e la **SJU Târgu Jiu**, **Tudor Vladimirescu 17**, **0253 237 234**.
 

@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Țicleni'
+title: 'Farmacii de gardă Țicleni'
 excerpt: 'Niciun PDF de gardă pe site-ul DSP. 1 puncte. Noaptea nu e aici.'
 featureImg: /images/posts/garda-farmacii-ticleni.webp
 thumb: /images/posts/garda-farmacii-ticleni.webp
@@ -21,9 +21,9 @@ tags:
 - farmacii de gardă
 ---
 
-![Farmacii de garda Țicleni](/images/posts/garda-farmacii-ticleni.webp)
+![Farmacii de gardă Țicleni](/images/posts/garda-farmacii-ticleni.webp)
 
-# Farmacii de garda Țicleni
+# Farmacii de gardă Țicleni
 
 **Răspuns rapid:** Nu inventăm o rotație. Alphega de pe Petrolistilor 136 e singura unitate indexată în oraș. Garda, dacă există, e pe geam. **0253 210 156**.
 

@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Motru'
+title: 'Benzinării non stop Motru'
 excerpt: 'PETROM 3 MOTRU, Calea Severinului nr. 15. Non-stop verificat: Teodoroiu 504, Târgu Jiu.'
 featureImg: /images/posts/peco-non-stop-motru.webp
 thumb: /images/posts/peco-non-stop-motru.webp
@@ -21,9 +21,9 @@ tags:
 - benzinării non stop
 ---
 
-![Benzinarii non stop Motru](/images/posts/peco-non-stop-motru.webp)
+![Benzinării non stop Motru](/images/posts/peco-non-stop-motru.webp)
 
-# Benzinarii non stop Motru
+# Benzinării non stop Motru
 
 **Răspuns rapid:** Oficial: **PETROM 3 MOTRU, Calea Severinului nr. 15**. Orarul 24/7 nu e scris în PDF. Confirmă în localizator. Pentru noapte, **Teodoroiu 504** din municipiu e punctul marcat 24h pe GazOnline.
 

@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Stomatologie urgenta Novaci'
+title: 'Stomatologie urgență Novaci'
 excerpt: 'Aprilie 2026: UPU stomatologie non-stop la SJU Târgu Jiu. Tudor Vladimirescu 17. Nu e în orașele mici.'
 featureImg: /images/posts/urgenta-dentara-novaci.webp
 thumb: /images/posts/urgenta-dentara-novaci.webp
@@ -21,9 +21,9 @@ tags:
 - stomatologie urgență
 ---
 
-![Stomatologie urgenta Novaci](/images/posts/urgenta-dentara-novaci.webp)
+![Stomatologie urgență Novaci](/images/posts/urgenta-dentara-novaci.webp)
 
-# Stomatologie urgenta Novaci
+# Stomatologie urgență Novaci
 
 **Răspuns rapid:** **Nu e UPU dentar în Novaci.** Unicul cabinet județean de urgență stomatologică, anunțat **non-stop** în aprilie 2026, e la **SJU Târgu Jiu**, **Tudor Vladimirescu 17**, **0253 237 234**.
 

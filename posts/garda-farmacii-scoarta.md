@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Scoarța'
+title: 'Farmacii de gardă Scoarța'
 excerpt: 'Niciun PDF de gardă pe site-ul DSP. 4 puncte. Noaptea nu e aici.'
 featureImg: /images/posts/garda-farmacii-scoarta.webp
 thumb: /images/posts/garda-farmacii-scoarta.webp
@@ -21,9 +21,9 @@ tags:
 - farmacii de gardă
 ---
 
-![Farmacii de garda Scoarța](/images/posts/garda-farmacii-scoarta.webp)
+![Farmacii de gardă Scoarța](/images/posts/garda-farmacii-scoarta.webp)
 
-# Farmacii de garda Scoarța
+# Farmacii de gardă Scoarța
 
 **Răspuns rapid:** Nu inventăm o rotație. Patru farmacii, majoritatea Florina. HartaFarmacii menționează program prelungit la județ, nu 24/7 în comună. Garda, dacă există, e pe geam. **0253 210 156**.
 

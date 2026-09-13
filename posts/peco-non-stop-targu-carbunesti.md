@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Târgu Cărbunești'
+title: 'Benzinării non stop Târgu Cărbunești'
 excerpt: 'PETROM 7 TG CARBUNESTI, Strada Trandafirilor nr. 149. Non-stop verificat: Teodoroiu 504, Târgu Jiu.'
 featureImg: /images/posts/peco-non-stop-targu-carbunesti.webp
 thumb: /images/posts/peco-non-stop-targu-carbunesti.webp
@@ -21,9 +21,9 @@ tags:
 - benzinării non stop
 ---
 
-![Benzinarii non stop Târgu Cărbunești](/images/posts/peco-non-stop-targu-carbunesti.webp)
+![Benzinării non stop Târgu Cărbunești](/images/posts/peco-non-stop-targu-carbunesti.webp)
 
-# Benzinarii non stop Târgu Cărbunești
+# Benzinării non stop Târgu Cărbunești
 
 **Răspuns rapid:** Oficial: **PETROM 7 TG CARBUNESTI, Strada Trandafirilor nr. 149**. Orarul 24/7 nu e scris în PDF. Confirmă în localizator. Pentru noapte, **Teodoroiu 504** din municipiu e punctul marcat 24h pe GazOnline.
 

@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Stomatologie urgenta Târgu Jiu'
+title: 'Stomatologie urgență Târgu Jiu'
 excerpt: 'SJU a anunțat în aprilie 2026 cabinet stomatologic non-stop în UPU, cu gardă la domiciliu. Tudor Vladimirescu 17. Unul pe județ. 0253 237 801.'
 featureImg: /images/posts/urgenta-dentara-sju-targu-jiu.webp
 thumb: /images/posts/urgenta-dentara-sju-targu-jiu.webp
@@ -22,9 +22,9 @@ tags:
 - UPU
 ---
 
-![Stomatologie urgenta Târgu Jiu](/images/posts/urgenta-dentara-sju-targu-jiu.webp)
+![Stomatologie urgență Târgu Jiu](/images/posts/urgenta-dentara-sju-targu-jiu.webp)
 
-# Stomatologie urgenta Târgu Jiu
+# Stomatologie urgență Târgu Jiu
 
 **Răspuns rapid:** În aprilie 2026, **SJU Târgu Jiu** a reluat, prin presă, că **UPU are cabinet de medicină dentară permanent**, cu **gardă și la domiciliu**. Adresa UPU: **Tudor Vladimirescu 17**. Telefoane: **0253 237 234**, **0253 237 801**. **Un singur astfel de cabinet în Gorj**, la reședință, pe banii Ministerului Sănătății (Ordinul 1706/2007, art. 106).
 

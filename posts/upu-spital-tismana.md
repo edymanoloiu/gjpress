@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Tismana'
+title: 'Spital urgențe Tismana'
 excerpt: 'Nu trimitem cititorul la un spital inexistent. SJU Târgu Jiu, 0253 237 234. 112.'
 featureImg: /images/posts/upu-spital-tismana.webp
 thumb: /images/posts/upu-spital-tismana.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Tismana](/images/posts/upu-spital-tismana.webp)
+![Spital urgențe Tismana](/images/posts/upu-spital-tismana.webp)
 
-# Spital urgente Tismana
+# Spital urgențe Tismana
 
 **Răspuns rapid:** **Tismana nu are spital orășenesc** în tabela DSP Gorj. **SJU Târgu Jiu**, Tudor Vladimirescu 17. **112**.
 

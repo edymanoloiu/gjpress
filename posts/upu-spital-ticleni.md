@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Spital urgente Țicleni'
+title: 'Spital urgențe Țicleni'
 excerpt: 'Nu trimitem cititorul la un spital inexistent. SJU Târgu Jiu, 0253 237 234. 112.'
 featureImg: /images/posts/upu-spital-ticleni.webp
 thumb: /images/posts/upu-spital-ticleni.webp
@@ -21,9 +21,9 @@ tags:
 - spital urgențe
 ---
 
-![Spital urgente Țicleni](/images/posts/upu-spital-ticleni.webp)
+![Spital urgențe Țicleni](/images/posts/upu-spital-ticleni.webp)
 
-# Spital urgente Țicleni
+# Spital urgențe Țicleni
 
 **Răspuns rapid:** **Țicleni nu are spital orășenesc** în tabela DSP Gorj. **SJU Târgu Jiu**, Tudor Vladimirescu 17. **112**.
 

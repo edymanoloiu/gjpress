@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Tismana'
+title: 'Farmacii de gardă Tismana'
 excerpt: 'Niciun PDF de gardă pe site-ul DSP. 1 puncte. Noaptea nu e aici.'
 featureImg: /images/posts/garda-farmacii-tismana.webp
 thumb: /images/posts/garda-farmacii-tismana.webp
@@ -21,9 +21,9 @@ tags:
 - farmacii de gardă
 ---
 
-![Farmacii de garda Tismana](/images/posts/garda-farmacii-tismana.webp)
+![Farmacii de gardă Tismana](/images/posts/garda-farmacii-tismana.webp)
 
-# Farmacii de garda Tismana
+# Farmacii de gardă Tismana
 
 **Răspuns rapid:** Nu inventăm o rotație. O singură adresă de lanț: Dr. Max, Tismana 2. Garda, dacă există, e pe geam. **0253 210 156**.
 

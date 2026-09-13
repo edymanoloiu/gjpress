@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Novaci'
+title: 'Farmacii de gardă Novaci'
 excerpt: 'Niciun PDF de gardă pe site-ul DSP. 3 puncte. Noaptea nu e aici.'
 featureImg: /images/posts/garda-farmacii-novaci.webp
 thumb: /images/posts/garda-farmacii-novaci.webp
@@ -21,9 +21,9 @@ tags:
 - farmacii de gardă
 ---
 
-![Farmacii de garda Novaci](/images/posts/garda-farmacii-novaci.webp)
+![Farmacii de gardă Novaci](/images/posts/garda-farmacii-novaci.webp)
 
-# Farmacii de garda Novaci
+# Farmacii de gardă Novaci
 
 **Răspuns rapid:** Nu inventăm o rotație. Trei puncte. IDA pe Parângului 94 și Surufarm pe Eroilor 13 au adresă. Niciun lanț național pe extras. Garda, dacă există, e pe geam. **0253 210 156**.
 

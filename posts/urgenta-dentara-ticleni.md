@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Stomatologie urgenta Țicleni'
+title: 'Stomatologie urgență Țicleni'
 excerpt: 'Aprilie 2026: UPU stomatologie non-stop la SJU Târgu Jiu. Tudor Vladimirescu 17. Nu e în orașele mici.'
 featureImg: /images/posts/urgenta-dentara-ticleni.webp
 thumb: /images/posts/urgenta-dentara-ticleni.webp
@@ -21,9 +21,9 @@ tags:
 - stomatologie urgență
 ---
 
-![Stomatologie urgenta Țicleni](/images/posts/urgenta-dentara-ticleni.webp)
+![Stomatologie urgență Țicleni](/images/posts/urgenta-dentara-ticleni.webp)
 
-# Stomatologie urgenta Țicleni
+# Stomatologie urgență Țicleni
 
 **Răspuns rapid:** **Nu e UPU dentar în Țicleni.** Unicul cabinet județean de urgență stomatologică, anunțat **non-stop** în aprilie 2026, e la **SJU Târgu Jiu**, **Tudor Vladimirescu 17**, **0253 237 234**.
 

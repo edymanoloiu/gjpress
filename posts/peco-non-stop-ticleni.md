@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Țicleni'
+title: 'Benzinării non stop Țicleni'
 excerpt: 'Gorjul oficial: Târgu Jiu, Motru, Rovinari, Târgu Cărbunești. Aici, nimic în listă. Teodoroiu 504 e 24h.'
 featureImg: /images/posts/peco-non-stop-ticleni.webp
 thumb: /images/posts/peco-non-stop-ticleni.webp
@@ -21,9 +21,9 @@ tags:
 - benzinării non stop
 ---
 
-![Benzinarii non stop Țicleni](/images/posts/peco-non-stop-ticleni.webp)
+![Benzinării non stop Țicleni](/images/posts/peco-non-stop-ticleni.webp)
 
-# Benzinarii non stop Țicleni
+# Benzinării non stop Țicleni
 
 **Răspuns rapid:** **Țicleni lipsește** din lista OMV Petrom pe județ. Nu publicăm o stație din memorie. **Teodoroiu 504**, municipiu, **0372 056 108**, e punctul 24h marcat.
 

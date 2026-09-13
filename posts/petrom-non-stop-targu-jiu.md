@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Benzinarii non stop Târgu Jiu'
+title: 'Benzinării non stop Târgu Jiu'
 excerpt: 'Stația de la Ecaterina Teodoroiu 504, 0372 056 108, e oficială și non-stop pe GazOnline. Titulescu 21A, Teodoroiu 1 și Victoriei 192 sunt tot Petrom.'
 featureImg: /images/posts/petrom-non-stop-targu-jiu.webp
 thumb: /images/posts/petrom-non-stop-targu-jiu.webp
@@ -22,9 +22,9 @@ tags:
 - Petrom
 ---
 
-![Benzinarii non stop Târgu Jiu](/images/posts/petrom-non-stop-targu-jiu.webp)
+![Benzinării non stop Târgu Jiu](/images/posts/petrom-non-stop-targu-jiu.webp)
 
-# Benzinarii non stop Târgu Jiu
+# Benzinării non stop Târgu Jiu
 
 **Răspuns rapid:** **PETROM 13 Tg Jiu**, **B-dul Ecaterina Teodoroiu nr. 504**, e în lista de locații OMV Petrom. GazOnline o pune **non-stop**, lângă depozitul PECO, DN66, **0372 056 108**. Uită-te în [localizatorul Petrom](https://www.petrom.ro/ro/localizator-statii): o pompă poate fi în revizie. Magazinul nu e obligatoriu deschis dacă pompezi.
 

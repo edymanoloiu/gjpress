@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Farmacii de garda Rovinari'
+title: 'Farmacii de gardă Rovinari'
 excerpt: 'Niciun PDF de gardă pe site-ul DSP. 5 puncte. Noaptea nu e aici.'
 featureImg: /images/posts/garda-farmacii-rovinari.webp
 thumb: /images/posts/garda-farmacii-rovinari.webp
@@ -21,9 +21,9 @@ tags:
 - farmacii de gardă
 ---
 
-![Farmacii de garda Rovinari](/images/posts/garda-farmacii-rovinari.webp)
+![Farmacii de gardă Rovinari](/images/posts/garda-farmacii-rovinari.webp)
 
-# Farmacii de garda Rovinari
+# Farmacii de gardă Rovinari
 
 **Răspuns rapid:** Nu inventăm o rotație. Cinci adrese: două Dr. Max (Jiului 5 și Aleea Pieții), DAV pe Prieteniei 9, Dona pe Aleea Pieții 2, Florina pe Prieteniei 13. Garda, dacă există, e pe geam. **0253 210 156**.
 

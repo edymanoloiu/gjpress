@@ -1,7 +1,7 @@
 ---
 postFormat: 'text'
 trending: false
-title: 'Stomatologie urgenta Scoarța'
+title: 'Stomatologie urgență Scoarța'
 excerpt: 'Aprilie 2026: UPU stomatologie non-stop la SJU Târgu Jiu. Tudor Vladimirescu 17. Nu e în orașele mici.'
 featureImg: /images/posts/urgenta-dentara-scoarta.webp
 thumb: /images/posts/urgenta-dentara-scoarta.webp
@@ -21,9 +21,9 @@ tags:
 - stomatologie urgență
 ---
 
-![Stomatologie urgenta Scoarța](/images/posts/urgenta-dentara-scoarta.webp)
+![Stomatologie urgență Scoarța](/images/posts/urgenta-dentara-scoarta.webp)
 
-# Stomatologie urgenta Scoarța
+# Stomatologie urgență Scoarța
 
 **Răspuns rapid:** **Nu e UPU dentar în Scoarța.** Unicul cabinet județean de urgență stomatologică, anunțat **non-stop** în aprilie 2026, e la **SJU Târgu Jiu**, **Tudor Vladimirescu 17**, **0253 237 234**.
 
