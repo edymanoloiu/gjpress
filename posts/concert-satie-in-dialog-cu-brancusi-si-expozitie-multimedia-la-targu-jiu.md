@@ -1,42 +1,38 @@
 ---
-postFormat: 'text'
-trending: true
+postFormat: 'standard'
+story: true
 title: "Concert Satie în dialog cu Brâncuși și expoziție multimedia la Târgu Jiu"
-excerpt: "Parcul Coloanei Fără Sfârșit din Târgu Jiu va găzdui pe 27 septembrie un concert extraordinar și o expoziție multimedia, dedicate Anului Brâncuși."
+excerpt: "Parcul Coloanei Fără Sfârșit din Târgu Jiu va găzdui pe 27 septembrie un concert extraordinar dedicat Anului Brâncuși, cu Ansamblul „Constantin Silvestri”."
 featureImg: /images/posts/concert-satie-in-dialog-cu-brancusi-si-expozitie-multimedia-la-targu-jiu.webp
 thumb: /images/posts/concert-satie-in-dialog-cu-brancusi-si-expozitie-multimedia-la-targu-jiu.webp
-date: Sep 23 2026
-cate: 'Azi in Targu Jiu'
+date: Sep 24 2026
+cate: 'Evenimente si cultura'
 cate_bg: 'bg-color-red-one'
 cate_img: '/images/category/world.png'
-post_views: '9K Vizualizari'
-post_share: '38 Shares'
+post_views: '10K Vizualizari'
+post_share: '32 Shares'
 author_name: 'Ana Popescu'
 author_desg: 'Publisher'
 author_img: '/images/author/ana.png'
 author_bio: 'Ea este Ana Popescu, jurnalistă de comunitate la Vocea Jiului. Are puțin peste 30 de ani și este cunoscută pentru tonul prietenos și deschiderea față de oameni. Scrie despre viața cotidiană din Târgu Jiu, despre inițiative locale și povești care aduc mai aproape vocea comunității. Ana crede că știrile locale trebuie să fie accesibile, corecte și să reflecte realitatea oamenilor din oraș.'
 tags:
-- Azi in Targu Jiu
-- Ultima Ora
+- Evenimente si cultura
+- Cultura
 ---
 
-![Concert Satie în dialog cu Brâncuși și expoziție multimedia la Târgu Jiu](/images/posts/concert-satie-in-dialog-cu-brancusi-si-expozitie-multimedia-la-targu-jiu.webp)
 
+## Informații despre concert
 
-## Un concert sub direcția lui Iosef Ion Prunner
+Evenimentul va fi coordonat de dirijorul Iosef Ion Prunner, iar Ansamblul „Constantin Silvestri” va interpreta lucrările alese. Soprana Miruna Dascălu și pianistul Cristian Niculescu se vor număra printre soliștii care vor oferi un spectacol deosebit, evidențiind intersecțiile dintre muzica clasică și arta vizuală inspirată de Brâncuși.
 
-Sub conducerea dirijorului Iosef Ion Prunner, Ansamblul „Constantin Silvestri” va interpreta lucrări compuse de marii muzicieni George Enescu, Erik Satie și Darius Milhaud. Alături de ansamblu, spectatorii se vor bucura de prestațiile soliștilor, soprana Miruna Dascălu și pianistul Cristian Niculescu, care vor aduce un plus de strălucire acestui concert.
+## Expoziție multimedia ce însoțește concertul
 
-## Expoziție multimedia pe tema lui Brâncuși
+În completarea concertului, participanții pot vizita expoziția multimedia „Brâncuși și sculptura germană modernă. Afinități, dialoguri, convergențe”, realizată de Cristina Enășescu. Aceasta se va concentra asupra legăturilor dintre operele lui Brâncuși și cele ale sculptorilor contemporani din Germania. O parte din expoziție a fost sănțită anterior la Berlin, în cadrul expoziției „Brâncuși” organizate de Neue Nationalgalerie, având aportul inspirațional al artistului român la nivel internațional.
 
-Pe lângă concert, publicul va avea ocazia să exploreze și expoziția „Brâncuși și sculptura germană modernă. Afinități, dialoguri, convergențe”, realizată de Cristina Enășescu. Aceasta va prezenta relațiile dintre arta lui Brâncuși și sculptura modernă din Germania, având la bază o expoziție similară desfășurată anterior la Berlin, parte a unei importante retrospective despre artist.
-
-## O seară închinată artei
-
-Evenimentul de la Târgu Jiu ilustrează sinergia dintre muzica clasică și sculptura monumentală din cadrul Ansamblului Monumental „Constantin Brâncuși”, oferind spectatorilor ocazia de a savura o experiență culturală unică. Organizatorii invită toți iubitorii de artă și cultură să participe la această manifestare semnificativă, destinată omagierii valorilor artistice moștenite de la Brâncuși.
+Acest concert promite a fi un moment deosebit în calendarul cultural al orașului Târgu Jiu, subliniind contribuțiile artistice ale lui Constantin Brâncuși la patrimoniul cultural global.
 
 Informațiile factuale principale provin din comunicările autorităților și relatările presei naționale.
 
-## Perspectivă locală
+### De reținut
 
-Locuitorii din Târgu Jiu și vizitatorii sunt încurajați să participe la acest eveniment cultural, care va aduce împreună muzica clasică și sculptura, promițând o seară plină de inspirație și frumusețe artistică, contribuind astfel la cunoașterea și aprecierea lui Constantin Brâncuși.
+Evenimentul „Satie în dialog cu Brâncuși” va avea loc pe 27 septembrie, la ora 19:00, în Parcul Coloanei Fără Sfârșit din Târgu Jiu, incluzând și o expoziție multimedia asociată pentru o experiență culturală completă.
