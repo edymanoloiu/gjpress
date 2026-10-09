@@ -93,7 +93,7 @@ export async function getServerSideProps({ params }) {
 	);
 	if (!post || !post.slug) return { notFound: true };
 	if (!isRecomandarePost(post)) return { notFound: true };
-	const content = await markdownToHtml(post.content || '');
+	const content = await markdownToHtml(post.content || '', { title: post.title });
 	const allPosts = (await getAllPosts([
 		'title', 'featureImg', 'featureImgSrc', 'postFormat', 'date', 'slug', 'cate', 'cate_bg', 'cate_img',
 		'author_name', 'trending', 'isPromo', 'tags',
