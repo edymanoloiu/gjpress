@@ -1,4 +1,4 @@
-const soledadSite = {
+const weboratorySite = {
 	localCate: "Azi in Targu Jiu",
 	categorySlug: "azi-in-targu-jiu",
 	pageH1: "Știri din Gorj și Târgu Jiu",
@@ -13,4 +13,4 @@ const soledadSite = {
 	metaTitle: "GJ Press - Știri din Gorj și Târgu Jiu",
 };
 
-export default soledadSite;
+export default weboratorySite;
