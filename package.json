@@ -17,10 +17,11 @@
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy",
     "open-next:build": "open-next build --webpack",
-    "cf:build": "opennextjs-cloudflare build",
+    "cf:build": "npm run generate:homepage-posts && opennextjs-cloudflare build",
     "generate:search": "node scripts/generate-search-index.js",
-    "cf:deploy": "opennextjs-cloudflare deploy",
-    "cf:upload": "opennextjs-cloudflare upload"
+    "cf:deploy": "npm run generate:homepage-posts && opennextjs-cloudflare deploy",
+    "cf:upload": "opennextjs-cloudflare upload",
+    "generate:homepage-posts": "node scripts/generate-homepage-posts.js"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
