@@ -35,7 +35,7 @@ Comunicatul SJU Târgu Jiu din 25 februarie 2026 rămâne referința. Aparțină
 
 Mască, halat și botoși se dau la ușa secției, gratuit, și se lasă la ieșire. Vizita se poate opri pentru manevre, urgențe, masă pe salon sau conduită necorespunzătoare.
 
-## ATI are alt program
+## Vizite la terapie intensivă
 
 Terapie intensivă: zilnic 13:00–14:00 și 19:00–20:00, maximum 10 minute, prelungire numai cu acordul medicului ATI.
 
