@@ -31,7 +31,7 @@ Sediul e pe bulevardul Constantin Brâncuși nr. 19. Programul de funcționare p
 
 ## Nu toate ghișeele se închid odată
 
-Casieria nu urmează ora de vineri 14:00 a instituției. CIC e trecut tot 08:00–18:00. Un drum luni la 16:30 la un birou care nu e CIC sau casierie e după ora zilei.
+Casieria nu urmează ora de vineri 14:00 a instituției. CIC e trecut tot 08:00–18:00. Cine ajunge luni la 16:30 la un birou care nu e CIC sau casierie e după programul zilei.
 
 Telefonul cetățeanului: 0253 984, plus 0253 218 928, 0253 212 299, 0253 211 482.
 

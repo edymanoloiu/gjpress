@@ -31,7 +31,7 @@ Sediul central, Calea Eroilor nr. 23: luni–vineri 08:30–19:30. Telefon / fax
 
 ## Victoria și Keber, ore mai scurte
 
-Filiala Olimpia Bratu, str. Victoriei nr. 198: luni 12:00–19:30, marți–joi 08:30–16:30, vineri 08:30–14:00. Un drum luni la 10:00 acolo cade înainte de deschidere.
+Filiala Olimpia Bratu, str. Victoriei nr. 198: luni 12:00–19:30, marți–joi 08:30–16:30, vineri 08:30–14:00. Cine ajunge luni la 10:00 acolo e înainte de deschidere.
 
 Secția de artă Iosif Keber, str. 11 Iunie nr. 67: luni–joi 08:30–16:30, vineri 08:30–14:00.
 
