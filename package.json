@@ -17,9 +17,9 @@
     "preview": "npm run pages:build && wrangler pages dev",
     "deploy": "npm run pages:build && wrangler pages deploy",
     "open-next:build": "open-next build --webpack",
-    "cf:build": "npm run generate:homepage-posts && npm run generate:partner-sitemaps && opennextjs-cloudflare build",
+    "cf:build": "opennextjs-cloudflare build",
     "generate:search": "node scripts/generate-search-index.js",
-    "cf:deploy": "npm run generate:homepage-posts && npm run generate:partner-sitemaps && opennextjs-cloudflare deploy",
+    "cf:deploy": "opennextjs-cloudflare deploy",
     "cf:upload": "opennextjs-cloudflare upload",
     "generate:homepage-posts": "node scripts/generate-homepage-posts.js",
     "generate:partner-sitemaps": "node scripts/generate-partner-sitemaps.js"
