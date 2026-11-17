@@ -60,9 +60,10 @@ function newsPath(post) {
 
 for (const post of posts) {
 	if (!post.slug) continue;
+	const description = String(post.excerpt || '').slice(0, 500);
 	entries.push({
 		title: post.title,
-		description: post.excerpt || '',
+		description,
 		contentType: 'news',
 		city: pub.city,
 		county: pub.county,
@@ -71,7 +72,7 @@ for (const post of posts) {
 		date: post.date,
 		slug: post.slug,
 		url: newsPath(post),
-		_search: norm([post.title, post.excerpt, post.cate, ...(post.tags || [])].filter(Boolean).join(' ')),
+		_search: norm([post.title, description, post.cate, ...(post.tags || [])].filter(Boolean).join(' ')),
 	});
 }
 

@@ -11,6 +11,7 @@ const nextConfig = {
 	// every lambda (~200MB × 60) which stalls Vercel "Deploying outputs".
 	outputFileTracingExcludes: {
 		'*': [
+			'.git/**/*',
 			'./lib/postsIndex.json',
 			'./lib/postsBodies.json',
 			'./content-data/**/*',
